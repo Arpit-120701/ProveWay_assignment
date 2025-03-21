@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.main{
+    width: 100%;
+    background-color: rgb(51, 57, 57);
+}
+
+.head{
+font-family: Inter;
+font-weight: 1000;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#FF6B82;
+width: 190px;
+height: 29px;
+top: 39px;
+display: inline;
+
+}
