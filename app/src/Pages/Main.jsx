@@ -23,9 +23,9 @@ const Main = () => {
               
               <div className="w-[341px] flex justify-between ">
               <div className=" w-[155px]  flex ">
-                <div className=" ml-3">
-                  <input type="radio" name="custom" className="hidden peer" />
-                  <div class="w-5 h-5 border-2 border-[#FF6B82] rounded-full peer-checked:bg-to-red mt-5"></div>
+                <div className=" ml-3 flex items-center space-x-2 cursor-pointer">
+                  <input type="radio" name="custom"  className="hidden peer cursor-pointer" />
+                  <div className="w-5 h-5 border-2 border-[#FF6B82] rounded-full peer-checked:bg-red-500 mt-5 cursor-pointer peer-checked:border-blue"></div>
                 </div>
 
                 <div>
@@ -175,7 +175,11 @@ const Main = () => {
         </div>
       </div>
 
-
+      <label class="flex items-center space-x-2 cursor-pointer">
+  <input type="radio" name="option" class="hidden peer" />
+  <div class="w-5 h-5 border-2 border-gray-400 rounded-full peer-checked:bg-blue-500 peer-checked:border-blue-500"></div>
+  <span class="text-gray-700">Option 1</span>
+</label>
 
       
       
