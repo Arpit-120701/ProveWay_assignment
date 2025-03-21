@@ -175,11 +175,7 @@ const Main = () => {
         </div>
       </div>
 
-      <label class="flex items-center space-x-2 cursor-pointer">
-  <input type="radio" name="option" class="hidden peer" />
-  <div class="w-5 h-5 border-2 border-gray-400 rounded-full peer-checked:bg-blue-500 peer-checked:border-blue-500"></div>
-  <span class="text-gray-700">Option 1</span>
-</label>
+      
 
       
       
